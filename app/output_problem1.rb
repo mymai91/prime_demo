@@ -1,5 +1,7 @@
 require_relative '../app/prime'
 
+# The number default when init Prime is 2_000_000
+
 output1 = Prime.new(10).sum_list_primes
 output2 = Prime.new(20).sum_list_primes
 output3 = Prime.new().sum_list_primes
