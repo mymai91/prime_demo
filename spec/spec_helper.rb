@@ -1,1 +1,1 @@
-require_relative '../app/sum_prime'
+require_relative '../app/prime'
