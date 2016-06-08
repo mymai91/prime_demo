@@ -24,25 +24,25 @@ At `prime` folder:
 rspec spec/prime_spec.rb
 ```
 
-![screen shot 2016-06-08 at 10 23 14 pm](https://cloud.githubusercontent.com/assets/6791942/15900097/5fd84270-2dc8-11e6-80f9-2e30740c6c36.png)
+![screen shot 2016-06-08 at 10 23 14 pm](https://cloud.githubusercontent.com/assets/6791942/15904027/958def44-2dd9-11e6-88da-fd493e388291.png)
 
 #### Check output for problem 1
 
 **Find the sum of all the primes below 2 million**
 
 ```
-ruby app/calculator.rb
+ruby output/sum_of_all_primes.rb
 ```
 
-![screen shot 2016-06-08 at 10 25 07 pm](https://cloud.githubusercontent.com/assets/6791942/15900098/6292118a-2dc8-11e6-83b7-2d3fe02777bb.png)
+![screen shot 2016-06-08 at 10 25 07 pm](https://cloud.githubusercontent.com/assets/6791942/15904031/95f34ab0-2dd9-11e6-958c-557af95b073b.png)
 
 #### Check the time run output for problem 1
 
 ```
-time ruby app/calculator.rb
+time ruby output/sum_of_all_primes.rb
 ```
 
-![screen shot 2016-06-08 at 10 26 34 pm](https://cloud.githubusercontent.com/assets/6791942/15900095/5dbc92e8-2dc8-11e6-8f63-4c156e07682e.png)
+![screen shot 2016-06-08 at 10 26 34 pm](https://cloud.githubusercontent.com/assets/6791942/15904029/95e39f8e-2dd9-11e6-80cf-cf4d42e57f23.png)
 
 #### Check output for problem 2
 
@@ -50,15 +50,15 @@ time ruby app/calculator.rb
 
 
 ```
-ruby app/find_prime.rb
+ruby output/sum_of_most_consecutive_primes.rb
 ```
 
-![screen shot 2016-06-08 at 10 32 39 pm](https://cloud.githubusercontent.com/assets/6791942/15900239/f859dd42-2dc8-11e6-9ab8-ab146d5860c4.png)
+![screen shot 2016-06-08 at 10 32 39 pm](https://cloud.githubusercontent.com/assets/6791942/15904030/95eec5c6-2dd9-11e6-8e2d-7f0a0f5d169a.png)
 
 #### Check the time run output for problem 1
 
 ```
-time ruby app/find_prime.rb
+time ruby output/sum_of_most_consecutive_primes.rb
 ```
 
-![screen shot 2016-06-08 at 10 33 38 pm](https://cloud.githubusercontent.com/assets/6791942/15900259/156c7d86-2dc9-11e6-8701-0528a03c1e83.png)
+![screen shot 2016-06-08 at 10 33 38 pm](https://cloud.githubusercontent.com/assets/6791942/15904028/95c71f44-2dd9-11e6-850b-a2d03cf63d22.png)
