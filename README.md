@@ -36,7 +36,7 @@ ruby app/calculator.rb
 
 ![screen shot 2016-06-08 at 10 25 07 pm](https://cloud.githubusercontent.com/assets/6791942/15900098/6292118a-2dc8-11e6-83b7-2d3fe02777bb.png)
 
-#### Check the time run output for problem 1
+**Check the time find the sum of all the primes below 2 million**
 
 ```
 time ruby app/calculator.rb
@@ -55,7 +55,7 @@ ruby app/find_prime.rb
 
 ![screen shot 2016-06-08 at 10 32 39 pm](https://cloud.githubusercontent.com/assets/6791942/15900239/f859dd42-2dc8-11e6-9ab8-ab146d5860c4.png)
 
-#### Check the time run output for problem 1
+**Check the time find prime, below one million, can be written as the sum of the most consecutive primes**
 
 ```
 time ruby app/find_prime.rb
