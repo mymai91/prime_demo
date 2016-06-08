@@ -24,20 +24,41 @@ At `prime` folder:
 rspec spec/prime_spec.rb
 ```
 
-![screen shot 2016-06-08 at 6 26 26 am](https://cloud.githubusercontent.com/assets/6791942/15878063/3994ebb2-2d42-11e6-90db-dfd3a10e5d3a.png)
+![screen shot 2016-06-08 at 10 23 14 pm](https://cloud.githubusercontent.com/assets/6791942/15900097/5fd84270-2dc8-11e6-80f9-2e30740c6c36.png)
 
 #### Check output for problem 1
 
+**Find the sum of all the primes below 2 million**
+
 ```
-ruby app/output_problem1.rb
+ruby app/calculator.rb
 ```
 
-![screen shot 2016-06-08 at 6 29 14 am](https://cloud.githubusercontent.com/assets/6791942/15878090/6fc0756c-2d42-11e6-9399-6f93f49c08d4.png)
+![screen shot 2016-06-08 at 10 26 34 pm](https://cloud.githubusercontent.com/assets/6791942/15900095/5dbc92e8-2dc8-11e6-8f63-4c156e07682e.png)
 
 #### Check the time run output for problem 1
 
 ```
-time ruby app/output_problem1.rb
+time ruby app/calculator.rb
 ```
 
-![screen shot 2016-06-08 at 6 16 49 am](https://cloud.githubusercontent.com/assets/6791942/15878059/3792feb2-2d42-11e6-8ff9-8bcc696f71b3.png)
+![screen shot 2016-06-08 at 10 25 07 pm](https://cloud.githubusercontent.com/assets/6791942/15900098/6292118a-2dc8-11e6-83b7-2d3fe02777bb.png)
+
+#### Check output for problem 2
+
+**Find prime, below one million, can be written as the sum of the most consecutive primes**
+
+
+```
+ruby app/find_prime.rb
+```
+
+![screen shot 2016-06-08 at 10 32 39 pm](https://cloud.githubusercontent.com/assets/6791942/15900239/f859dd42-2dc8-11e6-9ab8-ab146d5860c4.png)
+
+#### Check the time run output for problem 1
+
+```
+time ruby app/find_prime.rb
+```
+
+![screen shot 2016-06-08 at 10 33 38 pm](https://cloud.githubusercontent.com/assets/6791942/15900259/156c7d86-2dc9-11e6-8701-0528a03c1e83.png)
