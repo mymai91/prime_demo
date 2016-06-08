@@ -1,26 +1,21 @@
-# This module to help slove prime problems
-module Prime
-  # Listing primes below the input number
-  # @return array
+module Primee
+  # List of primes below the input number
+  #
+  # @returns Array
   def list_primes(number)
     1.upto(number).select { |n| prime?(n) }
   end
 
   # Sum of the primes below the input number
-  # @return number
-  def sum_list_primes(number)
-    arr = list_primes(number)
-    sum(arr)
-  end
-
-  # Sum of the array number
-  # @return number
-  def sum(arr)
-    arr.reduce(:+)
+  #
+  # @returns Number
+  def sum_of_primes(number)
+    list_primes(number).reduce(:+)
   end
 
   # Check the number is prime
-  # @return boolean
+  #
+  # @returns Boolean
   def prime?(number)
     value_from = 2
     if number < value_from
