@@ -52,30 +52,29 @@ describe 'Prime' do
 
   describe '#sum_list_primes' do
     before do
-      @sum_list_prime_of_number_one = Prime.new(1).sum_list_primes
-      @sum_list_prime_of_number_two = Prime.new(2).sum_list_primes
-      @sum_list_prime_of_number_three = Prime.new(3).sum_list_primes
-      @sum_list_prime_of_number_ten = Prime.new(10).sum_list_primes
-      @result_sum_prime_of_number_one = 0
-      @result_sum_prime_of_number_two = 2
-      @result_sum_prime_of_number_three = 5
-      @result_sum_prime_of_number_ten = 17
+      @sum_primes_number_one = Prime.new(1).sum_list_primes
+      @sum_primes_number_two = Prime.new(2).sum_list_primes
+      @sum_primes_number_three = Prime.new(3).sum_list_primes
+      @sum_primes_number_ten = Prime.new(10).sum_list_primes
+      @result_sum_prime_number_one = 0
+      @result_sum_prime_number_two = 2
+      @result_sum_prime_number_three = 5
+      @result_sum_prime_number_ten = 17
     end
     it 'list prime of 1' do
-      expect(@sum_list_prime_of_number_one).to eq(@result_sum_prime_of_number_one)
+      expect(@sum_primes_number_one).to eq(@result_sum_prime_number_one)
     end
 
     it 'list prime of 2' do
-      expect(@sum_list_prime_of_number_two).to eq(@result_sum_prime_of_number_two)
+      expect(@sum_primes_number_two).to eq(@result_sum_prime_number_two)
     end
 
     it 'list prime of 3' do
-      expect(@sum_list_prime_of_number_three).to eq(@result_sum_prime_of_number_three)
+      expect(@sum_primes_number_three).to eq(@result_sum_prime_number_three)
     end
 
     it 'list prime of 10' do
-      expect(@sum_list_prime_of_number_ten).to eq(@result_sum_prime_of_number_ten)
+      expect(@sum_primes_number_ten).to eq(@result_sum_prime_number_ten)
     end
   end
-
 end
