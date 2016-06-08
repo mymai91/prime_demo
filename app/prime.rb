@@ -1,33 +1,22 @@
-MAX_NUMBER = 2_000_000
-MAX_CONSECUTIVE_NUMBER = 1_000_000
-
-# This class to slove prime problem
-class Prime
-  attr_reader :number
-
-  def initialize(number = MAX_NUMBER)
-    @number = number
-  end
-
+# This module to help slove prime problems
+module Prime
   # Listing primes below the input number
   # @return array
-  def list_primes
-    prime_arr = []
-    (1..@number).each do |n|
-      prime_arr << n if prime?(n)
-    end
-    prime_arr
+  def list_primes(number)
+    1.upto(number).select { |n| prime?(n) }
   end
 
   # Sum of the primes below the input number
   # @return number
-  def sum_list_primes
-    list_primes.inject(0, :+)
+  def sum_list_primes(number)
+    arr = list_primes(number)
+    sum(arr)
   end
 
-  # The number is the sum of the most consecutive primes
+  # Sum of the array number
   # @return number
-  def prime_is_sume_of_consecutive_primes
+  def sum(arr)
+    arr.reduce(:+)
   end
 
   # Check the number is prime
