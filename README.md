@@ -36,7 +36,7 @@ ruby output/sum_of_all_primes.rb
 
 ![screen shot 2016-06-08 at 10 25 07 pm](https://cloud.githubusercontent.com/assets/6791942/15904031/95f34ab0-2dd9-11e6-958c-557af95b073b.png)
 
-#### Check the time run output for problem 1
+**Check the time find the sum of all the primes below 2 million**
 
 ```
 time ruby output/sum_of_all_primes.rb
@@ -55,7 +55,7 @@ ruby output/sum_of_most_consecutive_primes.rb
 
 ![screen shot 2016-06-08 at 10 32 39 pm](https://cloud.githubusercontent.com/assets/6791942/15904030/95eec5c6-2dd9-11e6-8e2d-7f0a0f5d169a.png)
 
-#### Check the time run output for problem 1
+**Check the time find prime, below one million, can be written as the sum of the most consecutive primes**
 
 ```
 time ruby output/sum_of_most_consecutive_primes.rb
