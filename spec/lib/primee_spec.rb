@@ -1,13 +1,15 @@
 require 'spec_helper'
 
-describe Prime do
-  include Prime
+describe Primee do
+  include Primee
+
   before do
     @arr_primes_of_one = []
     @arr_primes_of_two = [2]
     @arr_primes_of_three = [2, 3]
     @arr_primes_of_ten = [2, 3, 5, 7]
   end
+  
   describe '#prime?(number)' do
     it 'check the number < 2 is not prime' do
       expect(prime?(1)).to eq(false)
@@ -44,21 +46,21 @@ describe Prime do
     end
   end
 
-  describe '#sum_list_primes' do
+  describe '#sum_of_primes' do
     it 'list prime of 1' do
-      expect(sum_list_primes(1)).to eq(@arr_primes_of_one.reduce(:+))
+      expect(sum_of_primes(1)).to eq(@arr_primes_of_one.reduce(:+))
     end
 
     it 'list prime of 2' do
-      expect(sum_list_primes(2)).to eq(@arr_primes_of_two.reduce(:+))
+      expect(sum_of_primes(2)).to eq(@arr_primes_of_two.reduce(:+))
     end
 
     it 'list prime of 3' do
-      expect(sum_list_primes(3)).to eq(@arr_primes_of_three.reduce(:+))
+      expect(sum_of_primes(3)).to eq(@arr_primes_of_three.reduce(:+))
     end
 
     it 'list prime of 10' do
-      expect(sum_list_primes(10)).to eq(@arr_primes_of_ten.reduce(:+))
+      expect(sum_of_primes(10)).to eq(@arr_primes_of_ten.reduce(:+))
     end
   end
 end

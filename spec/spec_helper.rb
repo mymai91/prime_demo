@@ -1,1 +1,1 @@
-require_relative '../app/prime'
+require_relative '../app/lib/primee'
