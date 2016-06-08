@@ -34,7 +34,7 @@ rspec spec/prime_spec.rb
 ruby app/calculator.rb
 ```
 
-![screen shot 2016-06-08 at 10 26 34 pm](https://cloud.githubusercontent.com/assets/6791942/15900095/5dbc92e8-2dc8-11e6-8f63-4c156e07682e.png)
+![screen shot 2016-06-08 at 10 25 07 pm](https://cloud.githubusercontent.com/assets/6791942/15900098/6292118a-2dc8-11e6-83b7-2d3fe02777bb.png)
 
 #### Check the time run output for problem 1
 
@@ -42,7 +42,7 @@ ruby app/calculator.rb
 time ruby app/calculator.rb
 ```
 
-![screen shot 2016-06-08 at 10 25 07 pm](https://cloud.githubusercontent.com/assets/6791942/15900098/6292118a-2dc8-11e6-83b7-2d3fe02777bb.png)
+![screen shot 2016-06-08 at 10 26 34 pm](https://cloud.githubusercontent.com/assets/6791942/15900095/5dbc92e8-2dc8-11e6-8f63-4c156e07682e.png)
 
 #### Check output for problem 2
 
