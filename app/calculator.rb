@@ -15,7 +15,7 @@ class Calculator
   end
 end
 
-cal = Caculator.new
+cal = Calculator.new
 
 result = cal.sum_of_primes
 
