@@ -8,10 +8,18 @@ class SumOfMostConsecutivePrimes
   end
 
   # Get the max element Prime number in Array that each element is a total of most consecutive primes
+  # If the primes include in array_primes will break
   #
   # @returns Number
   def max_prime(number)
-    array_primes(total_prime_of_each_primes(number)).max
+    array_primes = list_primes(number)
+    array_total = total_prime_of_each_primes(array_primes, number)
+    last_prime = array_total.last
+
+    array_total.each do |prime|
+      p = last_prime - prime
+      return p if array_primes.include?(p)
+    end
   end
 
   # Array of primes
@@ -25,10 +33,10 @@ class SumOfMostConsecutivePrimes
   # If the total greater than the number then the loop will break
   #
   # @returns Array
-  def total_prime_of_each_primes(number)
+  def total_prime_of_each_primes(arr_number, number)
     primes = []
 
-    list_primes(number).each do |n|
+    arr_number.each do |n|
       if sum_of_primes(n) < number
         primes << sum_of_primes(n)
       else
