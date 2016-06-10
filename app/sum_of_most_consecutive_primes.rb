@@ -8,7 +8,7 @@ class SumOfMostConsecutivePrimes
   end
 
   # Get the max element Prime number in Array that each element is a total of most consecutive primes
-  # If the primes include in array_primes will break
+  # If the primes include in array_primes will return
   #
   # @returns Number
   def max_prime(number)
